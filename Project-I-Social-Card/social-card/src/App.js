@@ -2,7 +2,10 @@ import React from 'react';
 import './App.css';
 import ImageThumbnail from "./components/HeaderComponents/ImageThumbnail.js"
 import HeaderTitle from "./components/HeaderComponents/HeaderTitle.js"
+import HeaderContent from "./components/HeaderComponents/HeaderContent.js"
 
+import CardBanner from "./components/CardComponents/CardBanner.js";
+import CardContent from "./components/CardComponents/CardContent.js"
 
 const App = () => {
   return (
@@ -22,9 +25,16 @@ const App = () => {
     //   </p>
     // </div>
     <div className="app">
+
       <div className="header">
         <ImageThumbnail />
         <HeaderTitle />
+        <HeaderContent />
+      </div>
+
+      <div className="card-container">
+        <CardBanner />
+        <CardContent />
       </div>
     </div>
    
