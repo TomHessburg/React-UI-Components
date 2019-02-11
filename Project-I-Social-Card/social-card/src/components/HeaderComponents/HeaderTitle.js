@@ -6,7 +6,7 @@ function HeaderTitle(){
         <div className="header-top">
             <h2>Lambda School</h2>
             <p>@LambdaSchool</p>
-            <p>11 Feb</p>
+            <p> · 11 Feb</p>
         </div>
     );
 }

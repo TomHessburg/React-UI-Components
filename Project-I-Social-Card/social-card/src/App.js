@@ -3,6 +3,7 @@ import './App.css';
 
 import HeaderContiner from "./components/HeaderComponents/HeaderContainer.js"
 import CardContainer from "./components/CardComponents/CardContainer.js"
+import Footer from "./components/FooterComponents/Footer.js"
 
 
 const App = () => {
@@ -10,6 +11,7 @@ const App = () => {
     <div className="full-card">
         <HeaderContiner />
         <CardContainer />
+        <Footer />
     </div>
   );
 };
