@@ -9,7 +9,7 @@ ReactDOM.render(<App />, document.getElementById('root'));
 
 
 
-const date = moment().format("MM MMM");
+const date = moment().format("Do MMM");
 
 let dateTime = document.querySelector(".header-top .date-time");
 
