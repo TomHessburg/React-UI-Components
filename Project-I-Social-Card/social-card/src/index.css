@@ -9,9 +9,9 @@ body {
 }
 
 .full-card{
-  width: 800px;
-  background: rgb(247, 247, 247);
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  width: 700px;
+  background: rgb(249, 249, 249);
   margin: 50px auto;
+  border: 1px solid black;
 }
 

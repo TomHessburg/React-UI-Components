@@ -2,9 +2,21 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-
+import moment from 'moment'
 
 ReactDOM.render(<App />, document.getElementById('root'));
+
+
+
+
+const date = moment().format("MM MMM");
+
+let dateTime = document.querySelector(".header-top .date-time");
+
+
+dateTime.innerHTML = "· " + date;
+
+
 
 
 const repostsCounter = document.getElementById("reposts");
@@ -17,6 +29,7 @@ repostButton.addEventListener("click", () => {
     repostsCounter.innerHTML = countReposts;
 })
 
+
 const likesCounter = document.getElementById("likes");
 const likesButton = document.getElementById("likes-button");
 
@@ -26,3 +39,4 @@ likesButton.addEventListener("click", () => {
     countLikes++;
     likesCounter.innerHTML = countLikes;
 })
+
