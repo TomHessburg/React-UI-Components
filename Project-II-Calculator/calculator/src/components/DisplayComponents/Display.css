@@ -1,7 +1,8 @@
 .calculator-display{
     width: 400px;
-    background: black;
+    background: #222222;
     color: white;
-    height: 150px;
+    padding: 15px 0;
     text-align: right;
+    font-size: 75px;
 }

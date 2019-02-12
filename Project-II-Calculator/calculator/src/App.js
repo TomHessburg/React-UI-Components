@@ -15,7 +15,7 @@ const App = () => {
       <NumberButton buttonStyle={"number-button"} number={"8"} />
       <NumberButton buttonStyle={"number-button"} number={"9"} />
 
-      <NumberButton buttonStyle={"math-button"} number={"X"} />
+      <NumberButton buttonStyle={"math-button"} number={"x"} />
 
       <NumberButton buttonStyle={"number-button"} number={"4"} />
       <NumberButton buttonStyle={"number-button"} number={"5"} />
