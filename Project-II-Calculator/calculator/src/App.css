@@ -1,0 +1,7 @@
+.calc-wrapper{
+    box-sizing: border-box;
+    width: 400px;
+    background: rgb(227, 227, 227);
+    display: flex;
+    flex-wrap: wrap;
+}
