@@ -1,1 +1,30 @@
 /* All styles for your header Components live here */
+.head-container{
+    display: flex;
+    padding: 10px;
+    width: 700px;
+}
+
+.head-container img{
+    width: 80px;
+    height: 80px;
+}
+
+.header-top{
+    display: flex;
+    align-items: center;
+}
+
+.header-top h2{
+    margin: 0;
+    margin-right: 10px;
+}
+.header-top p{
+    margin: 0;
+    margin-right: 10px;
+    color: rgb(165, 165, 165);
+}
+
+.header-right{
+   margin-left: 10px;
+}

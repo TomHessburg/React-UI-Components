@@ -1,0 +1,14 @@
+.footer{
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.icon{
+    width: 20px;
+    margin-left: 70px;
+    cursor: pointer;
+}
+
+
+
